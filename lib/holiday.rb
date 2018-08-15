@@ -65,6 +65,7 @@ def all_supplies_in_holidays(holiday_hash)
     corresponding_holidays_hash.each do |holiday, holiday_supplies|
         puts "#{season}", " #{holiday}: #{holiday_supplies.join(", ")}"
     end
+  end
 end
 
 def all_holidays_with_bbq(holiday_hash)
