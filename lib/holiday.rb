@@ -44,8 +44,7 @@ end
   holiday_hash[:winter].each do |holiday, holiday_details|
     binding.pry
   end
-    holiday_details << supply
-  end
+    #holiday_details << supply
 end
 
 
