@@ -43,6 +43,7 @@ end
   # Christmas AND the New Year's arrays
   holiday_hash[:winter].each do |holiday, holiday_details|
     binding.pry
+  end
     holiday_details << supply
   end
 end
