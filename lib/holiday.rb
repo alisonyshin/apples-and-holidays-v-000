@@ -63,7 +63,7 @@ end
   # etc.
   holiday_hash.each do |season, corresponding_holidays_hash|
     corresponding_holidays_hash.each do |holiday, holiday_supplies|
-        puts "#{season}", " #{holiday}: #{holiday_supplies.join(",  "}"
+        puts "#{season}", " #{holiday}: #{holiday_supplies.join(",  ")}"
     end
 end
 
